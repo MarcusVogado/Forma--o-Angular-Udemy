@@ -1,0 +1,12 @@
+<h1>Diretiva Estrutural ngFor</h1>
+<ul>
+    <li *ngFor="let item of list">
+        <p>Meu nome é: {{item.name}} e tenho:{{item.idade}} anos </p>
+    </li>
+</ul>
+
+<ul>
+    <li *ngFor="let item of list; let i = index;" (click)="onClickEventList(i)">Sou {{item.name}} e minha posição na lista é {{i}} </li>
+</ul> 
+
+<button (click)="onClickAddList()">Adicionar Pessoa</button>
