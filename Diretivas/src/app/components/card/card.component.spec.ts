@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgStyleComponent } from './ng-style.component';
+import { CardComponent } from './card.component';
 
-describe('NgStyleComponent', () => {
-  let component: NgStyleComponent;
-  let fixture: ComponentFixture<NgStyleComponent>;
+describe('CardComponent', () => {
+  let component: CardComponent;
+  let fixture: ComponentFixture<CardComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NgStyleComponent]
+      declarations: [CardComponent]
     });
-    fixture = TestBed.createComponent(NgStyleComponent);
+    fixture = TestBed.createComponent(CardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

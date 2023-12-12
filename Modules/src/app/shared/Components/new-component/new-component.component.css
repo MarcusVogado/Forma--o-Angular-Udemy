@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+    h1{
+        color: #FFF;
+        padding: 0;
+        margin: 0;
+    }
+}

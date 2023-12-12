@@ -8,11 +8,11 @@ import { NgIfComponent } from './components/ng-if/ng-if.component';
 import { NgForComponent } from './components/ng-for/ng-for.component';
 import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
 import { NgClassComponent } from './components/ng-class/ng-class.component';
-import { NgStyleComponent } from './components/ng-style/ng-style.component';
 import { NgModelComponent } from './components/ng-model/ng-model.component';
 import { NgTemplateComponent } from './components/ng-template/ng-template.component';
 import { NgContentComponent } from './components/ng-content/ng-content.component';
 import { PipesComponent } from './components/pipes/pipes.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +20,11 @@ import { PipesComponent } from './components/pipes/pipes.component';
     NgIfComponent,
     NgForComponent,
     NgSwitchComponent,
-    NgClassComponent,
-    NgStyleComponent,
+    NgClassComponent,    
     NgModelComponent,
     NgTemplateComponent,
     NgContentComponent, 
-    PipesComponent   
+    PipesComponent, CardComponent   
   ],
   imports: [
     BrowserModule,

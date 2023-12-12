@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+}
+.container__content-img{
+    width: 100%;     
+}
+.content-img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.container__content-description{
+    display: flex;
+    flex-direction: column;    
+    padding: 10px;
+}

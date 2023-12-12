@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './ng-template.component.html',
   styleUrls: ['./ng-template.component.css']
 })
-export class NgTemplateComponent {
-
+export class NgTemplateComponent { 
+  public nomes: Array<{ nome: string }> = [{nome:'marcus'},{nome:'José'}]
+ 
 }
